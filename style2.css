@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to top right, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+    z-index: 20;
+
+}
+h1 {
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+img{
+    margin-right: 2rem;
+    margin-top: 5%;
+    float: right;
+}     
+.circle1,
+.circle2 {
+    background-color: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+}
+.circle1 {
+    top: 5%;
+    right: 10%;
+}
+.circle2 {
+    bottom: 5%;
+    left: 10%;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 1px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    text-align: justify;
+}
+.design {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: linear-gradient(to right, aqua, azure);
+}
+
+   a:hover{
+        color: red;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa-instagram{
+    background: linear-gradient(to right top, rgb(250, 56, 56), rgb(44, 74, 243));
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30%;
+}  
+.fa-facebook {
+    background: blue;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30%;
+}
+.fa-twitter {
+    background: rgb(13, 145, 253);
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30%;
+}
+.fa-linkedin {
+    background: rgb(42, 140, 253);
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30%;
+}
+.fa-github {
+    background: black;
+    color: white;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 30%;
+}
+h3 {
+    font-family: cursive;
+    margin-left: 2rem;
+}
+.social {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
